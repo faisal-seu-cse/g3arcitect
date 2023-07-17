@@ -1,3 +1,69 @@
-*{
-    font-family: 'Work Sans', sans-serif;
+* {
+  font-family: "Work Sans", sans-serif;
+}
+.btn-primary {
+  width: 11.25rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  border: none;
+  margin: 1.5rem;
+
+  font-weight: 600;
+}
+
+/* Header styles */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 0 3rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 1.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+}
+.nav-title {
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Banner styles */
+
+.banner-content {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title {
+  margin-bottom: 2rem;
+  color: var(--dark-01, #131313);
+  font-family: Work Sans;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-desc {
+  color: var(--dark-03, #727272);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.banner-img {
+  width: 90rem;
+  height: 43.75rem;
+  margin: 0 auto;
+  display: block;
 }
